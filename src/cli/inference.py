@@ -24,7 +24,7 @@ from cli.SparkTTS import SparkTTS
 def parse_args():
     """Parse command-line arguments."""
     parser = argparse.ArgumentParser(description="Run TTS inference.")
-    home_dir = os.path.join(os.path.expanduser("~"), '.str2speech', 'models', "Spark-TTS-0.5B")
+    home_dir = os.path.join(os.path.expanduser("~"), '.str2speech', 'models', "SparkTTS")
     parser.add_argument(
         "--model_dir",
         type=str,
