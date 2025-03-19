@@ -7,16 +7,13 @@ setup(
     name="sparktts",
     version="0.3.0",
     author="Ashraff Hathibelagal",
-    description="A powerful, Transformer-based text-to-speech (TTS) tool.",
+    description="A fork of Spark-TTS",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/hathibelagal-dev/Spark-TTS",
     packages=find_packages(where="sparktts"),
-    package_dir={"": "src"},
+    package_dir={"": "sparktts"},
     python_requires=">=3.11",
-    install_requires=[
-        
-    ],
     classifiers=[
         "Development Status :: 4 - Beta",
         "Intended Audience :: Developers",
