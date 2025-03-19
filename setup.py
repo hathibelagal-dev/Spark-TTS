@@ -11,7 +11,7 @@ setup(
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/hathibelagal-dev/Spark-TTS",
-    packages=find_packages(where="src"),
+    packages=find_packages(where="sparktts"),
     package_dir={"": "src"},
     python_requires=">=3.11",
     install_requires=[
