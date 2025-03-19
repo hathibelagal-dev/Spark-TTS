@@ -14,6 +14,11 @@ setup(
     packages=find_packages(where="src"),
     package_dir={"": "src"},
     python_requires=">=3.11",
+    entry_points={
+        "console_scripts": [
+            "sparktts=sparktts.cli.inference:main",
+        ],
+    },
     classifiers=[
         "Development Status :: 4 - Beta",
         "Intended Audience :: Developers",
